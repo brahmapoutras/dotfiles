@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorDebuggers>
+<!-- Written by QtCreator 4.8.2, 2020-02-27T01:59:53. -->
+<qtcreator>
+ <data>
+  <variable>DebuggerItem.0</variable>
+  <valuemap type="QVariantMap">
+   <valuelist type="QVariantList" key="Abis">
+    <value type="QString">x86-linux-generic-elf-64bit</value>
+   </valuelist>
+   <value type="bool" key="AutoDetected">true</value>
+   <value type="QString" key="Binary">/usr/bin/gdb</value>
+   <value type="QString" key="DisplayName">System GDB at /usr/bin/gdb</value>
+   <value type="int" key="EngineType">1</value>
+   <value type="QString" key="Id">{35b86b58-3869-45a4-8060-e1afc5d88e74}</value>
+   <value type="QDateTime" key="LastModified">2019-05-17T17:05:14.000</value>
+   <value type="QString" key="Version">8.3.0</value>
+   <value type="QString" key="WorkingDirectory"></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>DebuggerItem.1</variable>
+  <valuemap type="QVariantMap">
+   <valuelist type="QVariantList" key="Abis">
+    <value type="QString">x86-linux-generic-elf-64bit</value>
+   </valuelist>
+   <value type="bool" key="AutoDetected">true</value>
+   <value type="QString" key="Binary">/usr/bin/lldb</value>
+   <value type="QString" key="DisplayName">System LLDB at /usr/bin/lldb</value>
+   <value type="int" key="EngineType">256</value>
+   <value type="QString" key="Id">{546e0897-d1a3-4c15-a765-e5efd1fefc85}</value>
+   <value type="QDateTime" key="LastModified">2019-10-03T19:14:21.000</value>
+   <value type="QString" key="Version">9.0.0</value>
+   <value type="QString" key="WorkingDirectory"></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>DebuggerItem.2</variable>
+  <valuemap type="QVariantMap">
+   <valuelist type="QVariantList" key="Abis">
+    <value type="QString">x86-linux-generic-elf-64bit</value>
+   </valuelist>
+   <value type="bool" key="AutoDetected">true</value>
+   <value type="QString" key="Binary">/usr/bin/lldb-9</value>
+   <value type="QString" key="DisplayName">System LLDB at /usr/bin/lldb-9</value>
+   <value type="int" key="EngineType">256</value>
+   <value type="QString" key="Id">{bcdf3521-91fc-4b55-96cd-c1318d51365d}</value>
+   <value type="QDateTime" key="LastModified">2019-10-03T19:14:21.000</value>
+   <value type="QString" key="Version">9.0.0</value>
+   <value type="QString" key="WorkingDirectory"></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>DebuggerItem.3</variable>
+  <valuemap type="QVariantMap">
+   <valuelist type="QVariantList" key="Abis">
+    <value type="QString">x86-linux-generic-elf-64bit</value>
+   </valuelist>
+   <value type="bool" key="AutoDetected">true</value>
+   <value type="QString" key="Binary">/usr/bin/lldb-mi</value>
+   <value type="QString" key="DisplayName">System GDB at /usr/bin/lldb-mi</value>
+   <value type="int" key="EngineType">1</value>
+   <value type="QString" key="Id">{f3a3482d-337b-495d-a272-be8b789120af}</value>
+   <value type="QDateTime" key="LastModified">2019-10-03T19:14:21.000</value>
+   <value type="QString" key="Version">7.4.0</value>
+   <value type="QString" key="WorkingDirectory"></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>DebuggerItem.4</variable>
+  <valuemap type="QVariantMap">
+   <valuelist type="QVariantList" key="Abis">
+    <value type="QString">x86-linux-generic-elf-64bit</value>
+   </valuelist>
+   <value type="bool" key="AutoDetected">true</value>
+   <value type="QString" key="Binary">/usr/bin/lldb-mi-9</value>
+   <value type="QString" key="DisplayName">System GDB at /usr/bin/lldb-mi-9</value>
+   <value type="int" key="EngineType">1</value>
+   <value type="QString" key="Id">{7071fe05-59ed-4053-9195-76c27dfff5bd}</value>
+   <value type="QDateTime" key="LastModified">2019-10-03T19:14:21.000</value>
+   <value type="QString" key="Version">7.4.0</value>
+   <value type="QString" key="WorkingDirectory"></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>DebuggerItem.Count</variable>
+  <value type="int">5</value>
+ </data>
+ <data>
+  <variable>Version</variable>
+  <value type="int">1</value>
+ </data>
+</qtcreator>

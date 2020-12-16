@@ -1,0 +1,7 @@
+ - New repo
+git -c user.name="New Author Name" -c user.email=email@address.com commit -m <message>
+git commit --author="Author Name <email@address.com>" 
+
+- Old repo
+git -c user.name="New Author Name" -c user.email=email@address.com commit --amend --reset-author
+git commit --amend --author="Author Name <email@address.com>" --no-edit

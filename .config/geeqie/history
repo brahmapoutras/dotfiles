@@ -1,0 +1,12 @@
+#History lists
+
+[shortcuts]
+".[path](null)"
+"Home[path]/home/vad"
+"Desktop[path]/home/vad/Desktop"
+"Collections[path]/home/vad/.local/share/geeqie/collections"
+
+[path_list]
+"/home/vad"
+
+#end

@@ -1,0 +1,10 @@
+sudo service mongod start
+db.grantRolesToUser("addAdmin", [{role: "root", db: "admin"}])
+db.grantRolesToUser("appAdmin", [{role: "root", db: "admin"}])
+q
+use admin
+show users
+showUsers
+showUsers()
+getUsers()
+db.getUsers()

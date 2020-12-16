@@ -1,0 +1,29 @@
+#!/bin/sh
+PREREQ=""
+prereqs()
+{
+    echo "$PREREQ"
+}
+
+case $1 in
+prereqs)
+    prereqs
+    exit 0
+    ;;
+esac
+
+. /scripts/functions
+
+if [ ! -x "/sbin/nslookup" ]; then
+  log_failure_msg "Nslookup not found"
+  exit 0
+fi
+
+configure_networking
+
+echo "Trying nslookups"
+
+nslookup 1.1.1.1
+nslookup 8.8.8.8
+nslookup 9.9.9.9
+nslookup google.com

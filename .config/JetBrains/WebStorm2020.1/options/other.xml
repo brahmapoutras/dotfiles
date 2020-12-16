@@ -1,0 +1,25 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/bin/node">
+      <version-cache version="10.15.2" last-modified="1564765416000" />
+    </local-interpreter>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="GeneralSettings.initiallyConfigured" value="true" />
+    <property name="MarketplacePluginsSearchHistory" value="ideavim" />
+    <property name="WebStorm.disableSafeWrite" value="true" />
+    <property name="WebStorm.initialConfigurationShown" value="true" />
+    <property name="appcds.runOnSecondStart" value="WS-201.6668.106-2365676041099f09056652690d7faa00c02e62346c62eb671ad231bc784406be" />
+    <property name="evlsprt3.192" value="13" />
+    <property name="evlsprt3.201" value="17" />
+    <property name="file.chooser.recent.files" value="/media/veracrypt58/workspace/spheenx.io&#10;/media/veracrypt1/3rdPartyLibs/WinMACSpoofer/winMACSpoofer/winMACSpoofer&#10;/media/veracrypt1/3rdPartyLibs/WinMACSpoofer/winMACSpoofer/winMACSpoofer/cmake-build-debug&#10;/media/veracrypt1/3rdPartyLibs/WinMACSpoofer/winMACSpoofer/winMACSpoofer/CMakeLists.txt&#10;/media/veracrypt1/3rdPartyLibs/WinMACSpoofer" />
+    <property name="file.gist.reindex.count" value="87848" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="ignore.ide.sigint.ignored.message" value="true" />
+    <property name="power.save.mode" value="true" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="3.8.2" />
+  </component>
+</application>

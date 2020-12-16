@@ -1,0 +1,1000 @@
+ls
+htop
+clear
+hostname
+hostnamectl set-hostname $new
+hostname
+hostnamectl --help
+hostnamectl --transient set-hostname "$new"
+hostname
+new=$(tr -dc 'A-Z0-9' < /dev/urandom | head -c12) | hostnamectl --transient set-hostname "$new"
+hostname
+new=$(tr -dc 'A-Z0-9' < /dev/urandom | head -c12) | hostnamectl --transient set-hostname $new
+new=$(tr -dc 'A-Z0-9' < /dev/urandom | head -c12) | echo new | hostnamectl --transient set-hostname "$new"
+$(tr -dc 'A-Z0-9' < /dev/urandom | head -c12)
+new=$(tr -dc 'A-Z0-9' < /dev/urandom | head -c12) | echo $new | hostnamectl --transient set-hostname "$new"
+new=$(tr -dc 'A-Z0-9' < /dev/urandom | head -c12) | echo "$new" | hostnamectl --transient set-hostname "$new"
+new=$(tr -dc 'A-Z0-9' < /dev/urandom | head -c12) | printf "$new" | hostnamectl --transient set-hostname "$new"
+new=$(tr -dc 'A-Z0-9' < /dev/urandom | head -c12) | printf "$new
+new=$(tr -dc 'A-Z0-9' < /dev/urandom | head -c12) | printf "$new"
+new=$(tr -dc 'A-Z0-9' < /dev/urandom | head -c12) | echo "$new"
+new=$(tr -dc 'A-Z0-9' < /dev/urandom | head -c12) | echo $new
+new=$(tr -dc 'A-Z0-9' < /dev/urandom | head -c12) | echo new
+let new=$(tr -dc 'A-Z0-9' < /dev/urandom | head -c12) | echo "$new"
+#$/bin/bash; new=$(tr -dc 'A-Z0-9' < /dev/urandom | head -c12) | echo "$new"
+new=$(tr -dc 'A-Z0-9' < /dev/urandom | head -c12); echo new
+new=$(tr -dc 'A-Z0-9' < /dev/urandom | head -c12); echo $new
+new=$(tr -dc 'A-Z0-9' < /dev/urandom | head -c12); echo $new; hostnamectl --transient set-hostname $new
+new=$(tr -dc 'A-Z0-9' < /dev/urandom | head -c12); echo $new; sudo hostnamectl --transient set-hostname $new
+hostname
+new=$(tr -dc 'A-Z0-9' < /dev/urandom | head -c12); echo $new; sudo hostnamectl --transient set-hostname "$new"
+hostname
+new=$(tr -dc 'A-Z0-9' < /dev/urandom | head -c12); echo $new; sudo hostnamectl set-hostname "$new"
+hostname
+new=$(tr -dc 'A-Z0-9' < /dev/urandom | head -c12); echo $new; sudo hostnamectl set-hostname $new
+hostname
+new=$(tr -dc 'A-Z0-9' < /dev/urandom | head -c12); hostnamectl set-hostname $new
+hostname
+hostnamectl set-hostname $(tr -dc 'A-Z0-9' < /dev/urandom | head -c12)
+hostname
+ip lin show
+ifconfig a
+ifconfig -a --names
+ifconfig -a --name
+ifconfig -a -name
+ifconfig -a -names
+ifconfig -names
+ifconfig --names
+ifconfig --name
+ls /sys/class/net
+basename -a /sys/class/net/*
+inames=(basename -a /sys/class/net/*); for [ name in inames ]; do echo name done
+inames=(basename -a /sys/class/net/*); for name in $inames; do echo name done
+inames=(basename -a /sys/class/net/*); for [ name in $inames ]; do echo name done
+inames=(basename -a /sys/class/net/*); for [ name in $inames ]; do echo $name done
+inames=(basename -a /sys/class/net/*); for [ name in $inames ]; do echo $name; done
+inames=(basename -a /sys/class/net/*); for name in $inames; do echo $name; done
+inames=(basename -a /sys/class/net/*); echo $inames;for name in $inames; do echo $name; done
+basename -a /sys/class/net/*\
+basename -a /sys/class/net/*
+(basename -a /sys/class/net/*)
+n=(basename -a /sys/class/net/*); echo $n
+inames=$(basename -a /sys/class/net/*); echo $inames;for name in $inames; do echo $name; done
+inames=$(basename -a /sys/class/net/*);for name in $inames; do macchanger -r $name; done
+macchanger --help
+p link show
+ip link show
+for name in $(basename -a /sys/class/net/*); do macchanger -r $name; done
+for name in $(basename -a /sys/class/net/*); do sudo macchanger -r $name; done
+ip link show
+sudo macchanger -r wlo1
+for name in $(basename -a /sys/class/net/*); do sudo ip link set dev $name down; macchanger -r $name; ip link set dev $name up; done
+ip link show
+for name in $(basename -a /sys/class/net/*); do sudo ip link set dev $name down; sudo macchanger -r $name; sudo ip link set dev $name up; done
+ip link show
+systemctl restart systemd-networkd
+sudo systemctl restart systemd-networkd
+sudo systemctl restart systemd-resolved
+cd ..
+find ./ |grep spoofHost.h
+find ./ |grep spoofHost
+sudo find ./ |grep spoofHost
+cd ..
+cd 3rdPartyLibs/
+sudo find ./ |grep spoofHost
+cat ./WinMACSpoofer/winMACSpoofer/winMACSpoofer/spoofHost.h
+vim ./WinMACSpoofer/winMACSpoofer/winMACSpoofer/spoofHost.h
+mv WinMACSpoofer/ ../workspace/my_WinMACSpoofer
+cd ..
+cd workspace/
+cd my_WinMACSpoofer/
+ls
+cd winMACSpoofer/
+ls
+ls winMACSpoofer.
+rm winMACSpoofer.
+rm -rf winMACSpoofer.
+ls winMACSpoofer
+ls
+mv winMACSpoofer.sln winMACSpoofer
+ls
+rm -rf winMACSpoofer.sdf winMACSpoofer.v12.suo x64
+ls
+ls winMACSpoofer/
+cd ..
+ls
+mv winMACSpoofer/winMACSpoofer/* ./
+ls
+ls winMACSpoofer/winMACSpoofer/
+rmdir winMACSpoofer/winMACSpoofer/
+rm -rf winMACSpoofer/winMACSpoofer/
+ls
+find . |grep flags
+cd /
+ls
+exit
+startx
+iwconfig
+sudo systemctl restart systemd-resolved.service 
+hostname
+history
+history |grep hostname
+sudo hostnamectl set-hostname deepblue
+hostname
+exit
+cd media/
+cd /media/
+ls
+mkdir veracrypt58
+sudo mkdir veracrypt58
+cd veracrypt58/
+mkdir workspace
+sudo mkdir workspace
+cd workspace/
+mkdir my_fervor
+sudo mkdir my_fervor
+cd my_fervor/
+vim CMakeLists.txt
+sudo vim CMakeLists.txt
+sudo clion
+sudo chmod +777 .
+ls
+ls -la
+cd ..
+ls -la
+cd my_fervor/
+clion
+bg
+sudo chmod 777 -R .
+chmod --help
+cd /
+cd ~/
+ls
+rm java_error_in_*
+ls
+ls CLionProjects/
+ls CLionProjects/untitled/
+rm -r CLionProjects/
+ls
+cd bettercap
+ls
+sudo make uninstall
+sudo make 
+cd ..
+df bettercap/
+du -sh bettercap/
+du -sh ./
+rm -r bully/
+sudo rm -r bully/
+sudo rm -r bettercap/
+ls medusa
+cat medusa/README.rst 
+df -h medusa/
+du -h medusa/
+du -sh medusa/
+ls medusa
+sudo rm -r medusa/
+ls
+du -sh go
+ls go
+ls go/bin
+rm -r go
+sudo rm -r go
+du -sh hcxdumptool/
+du -sh hcxtools/
+du -sh imgui/
+sudo rm -r imgui
+ls
+du -sf PEGTL
+du -sf PEGTL/
+du -sh PEGTL/
+ls PEGTL/
+cat PEGTL/README.md 
+cd PEGTL/
+ls
+ls build
+cd build
+make uninstall
+cd ..
+sudo rm -r PEGTL/
+ls
+ls Obfuscate/
+du -sf qt5
+du -sh qt5
+du -sh Qt5_temp/
+ls Qt5_temp/
+ls qt5
+sudo rm -r qt5
+sudo rm -r Qt5_temp/
+du -sh tmpnomnom/
+sudo rm tmpnomnom/
+sudo rm -r tmpnomnom/
+cd Sublist3r/
+ls
+cat README.md 
+cd ..
+du -hs Sublist3r/
+ls
+ls snap
+du -hs snap
+du -hs snap/chromium/
+ls snap/chromium/current 
+ls
+rm -r snap
+cat sqlite3Config.cmake 
+sudo rm sqlite3Config.cmake 
+ls test-bundle/
+sudo rm -r test-bundle/
+ls tf
+sudo rm -r tf
+ls turbo-intruder/
+sudo rm -r turbo-intruder/
+ls urh
+ls urh/build/
+ls urh/
+cat urh/README.md 
+ls
+rm xinitrctmp 
+ls
+ls Desktop/
+cd Downloads/
+ls
+du -sh .
+sudo rm -r miflash
+sudo rm -r miflash_unlock.res/
+sudo rm -r miflash_unlock.exe 
+ls nomnom
+sudo rm -r nomnom/
+sudo rm pdf.dll 
+sudo rm -r pkg-rt3070/
+sudo rm -r pole_neutral
+sudo rm -r pole_neural
+sudo rm -r RT3070_kernel_4/
+sudo rm -r tor-browser_en-US/
+sudo rm *.dll
+ls
+ls DPO_RT5572_LinuxSTA_2.6.1.3_20121022
+sudo rm -r DPO_RT5572_LinuxSTA_2.6.1.3_20121022
+ls
+sudo rm -r driver kali-linux-*
+ls
+du -hs .
+du -h .
+du -h 
+du -h ./
+du  ./
+du -hm ./
+du -hm 
+du -hm ./*
+sudo rm -r clonezilla-live-2.6.3-7-amd64.iso  burpsuite_community_v2.1.04.jar  archlinux-2019.12.01-x86_64.iso 
+du -hm ./*
+suo rm -r boost_1_71_0.tar.gz 
+sudo rm -r boost_1_71_0.tar.gz 
+ls
+du -hm *
+sudo rm -r tor-browser-linux64-8.5.5_en-US.tar.xz  twrp-3.* virtio-win-drivers-20120712-1.iso 
+du -hm *
+du -sh .
+cd ..
+df
+df --help
+du -sf /
+du -sh /
+sudo du -sh /u
+df
+sudo snap remove chromium
+sudo apt p chromium-browser
+du -a /usr | sort -n -r | head -n 5
+du -a / | sort -n -r | head -n 5
+sudo du -a / | sort -n -r | head -n 5
+fdisk -l
+sudo fdisk -l
+ls mnt
+ls /mnt
+cat /etc/fstab
+history
+ls
+cd ./.CLion2019.2/system
+l
+ls
+ls LocalHistory/
+grep -IHrn .cpp
+grep -IHrn \.cpp
+cd ~/
+vim temp
+εχιτ
+cat temp
+rm temp
+ls
+cd /media
+ls
+rm -r veracrypt58/
+sudo rm -r veracrypt58/
+ls
+ps aux |grep wicd
+sudo kill -9 1360 1693 2519 31723399
+sudo kill -9 1360 1693 2519 3172 3399
+ps aux |grep wicd
+ping google.com
+ping 8.8.8.8
+ping google.com
+sudo systemctl restart systemd-resolved.service 
+ping google.com
+ls
+l
+ls /media/veracrypt58/workspace/my_WinMACSpoofer
+cd /media/veracrypt58/workspace/my_WinMACSpoofer
+ls
+ls cmake-build-debug/
+sudo clion &
+fg
+bg
+du -hs /
+du -hs /media/veracrypt58/
+sudo du -hs /media/veracrypt58/
+ls
+cat spoofMac.
+cat spoofMac.h
+clear
+cd ...
+cd ..
+ls
+du .
+du . |mor
+du . |more
+ls
+ls CertificateIssuer/
+sudo ls CertificateIssuer/
+ls CryptoCurrencyLoader/
+ls genadi
+cd ..
+ls
+ls Personal 
+reboot
+startx
+cd /media/veracrypt58/
+ls
+cd ..
+ls
+ls veracrypt58/
+ls veracrypt58/Personal/
+cd veracrypt58/workspace/
+ls
+ls CertificateIssuer/
+cd my_WinMACSpoofer/
+ls
+cd cmake-build-debug/bin
+ls
+sudo find / |grep pcre.a
+sudo find / |grep pcre\.a
+sudo find / |grep 'pcre\.a'
+apt search pcre
+apt search pcre |more
+sudo apt install libpcre++-dev
+sudo find / |grep 'pcre2.*\.a'
+sudo find / |grep 'pcre3.*\.a'
+sudo find / |grep 'pcre2.*\'
+sudo find / |grep 'pcre2.*'
+sudo find / |grep 'pcre2.*\.h'
+sudo find / |grep 'pcre.*\.h'
+vim /usr/include/pcrecpp.h 
+vim /usr/include/pcreposix.h 
+vim /usr/include/pcre_scanner.h.h 
+vim /usr/include/pcre_scanner.h
+vim /usr/include/pcre_stringpiece.h
+vim /usr/include/pcre.h
+"ifconfig wlo1\n| awk '$0 ~ /ether/ { print $2 }'"
+ifconfig wlo1\n| awk '$0 ~ /ether/ { print $2 }'
+ifconfig wlo1| awk '$0 ~ /ether/ { print $2 }'
+htop
+cd /
+iwconfig
+sudo clion &
+fg
+bg
+ip link status
+ip link help
+ip link show wlo1
+ip link show virbr0
+ip link help
+ip link show virbr0
+ip link set dev virbr0 down
+sudo ip link set dev virbr0 down
+ip link show virbr0
+ifconfig
+ip link show virbr0
+sudo ip link show wlo1
+macchanger --mac=81:18:18:01:12:12 wlo1
+sudo macchanger --mac=81:18:18:01:12:12 wlo1
+macchanger --help
+sudo macchanger --mac=81:18:18:01:12:12 wlo1
+sudo ip link set dev wlo1 down
+sudo ip link show wlo1
+sudo macchanger --mac=81:18:18:01:12:12 wlo1
+ifconfig
+sudo ip link show wlo1
+sudo macchanger --mac=81:18:18:01:12:12 wlo1
+sudo macchanger --mac=c8:18:18:01:12:12 wlo1
+sudo ip link show wlo1
+sudo macchanger --mac=c8:76:93:1f:ac:9d wlo1
+sudo ip link set dev wlo1 down
+sudo macchanger --mac=c8:76:93:1f:ac:9d wlo1
+sudo macchanger --mac=c8:76:93:1f:98:7f wlo1
+sudo ip link set dev wlo1 down
+sudo macchanger --mac=c8:76:93:1f:98:7f wlo1
+sudo ip link show wlo1
+ifconfig
+ifconfig wlo1 up
+sudo ifconfig wlo1 up
+ifconfig
+sudo ifconfig wlo1 up
+ifconfig
+sudo ifconfig wlo1 down
+ifconfig
+macchanger
+macchanger --help
+ifconfig
+ifconfig wlo1
+ifconfig wlo1 down
+sudo ifconfig wlo1 down
+ifconfig wlo1 down
+ifconfig wlo1 
+ifconfig
+ip link set wlo1 up
+sudo ip link set wlo1 up
+sudo ip link set wlo1 down
+ip link wlo1 show
+ip link show wlo1
+sudo ip link set wlo1 down
+ip link show wlo1
+sudo ip link set wlo1 up
+ip link show wlo1
+sudo systemctl restart systemd-resolved.service 
+sudo systemctl restart systemd-networkd
+ps aux |grep dhclient
+sudo kill -9 1350 21324
+ip link show wlo1
+ps aux |grep dhclient
+sudo kill -9 22156 22157
+ps aux |grep dhclient
+sudo kill -9 22475
+ps aux |grep dhclient
+sudo kill -9 23210 23211
+ps aux |grep dhclient
+sudo kill -9 23492
+sudo systemctl restart systemd-resolved.service 
+sudo systemctl restart systemd-networkd
+ps aux |grep dhclient
+sudo kill -9 23737 23738
+ip link show wlo1
+ifconfig
+sudo systemctl restart systemd-resolved.service 
+ping 8.8.8.8
+ifconfig
+ps aux | grep wpa_supplicant
+sudo systemctl restart systemd-resolved.service 
+sudo systemctl restart systemd-networkd.service 
+wpa_cli
+sudo wpa_cli
+ifconfig
+sudo wpa_cli
+sudo wpa_cli -i wlo1
+ps aux | grep wpa_supplicant
+sudo kill -9 143
+sudo kill -9 1435
+ps aux | grep wpa_supplicant
+sudo wpa_cli
+sudo wpa_cli -i wlo1
+ping 8.8.8.8
+ifocnfi
+ifocnfig
+ifconfig
+iwconfig
+ps aux |grep wpa_su
+ps aux |grep wicd
+sudo service wicd stop
+sudo wpa_cli
+sudo kill 5816
+ps aux |grep wicd
+ps aux |grep wpa_su
+sudo wpa_cli
+sudo wpa_cli -i wlo1
+ping 8.8.8.8
+ps aux |grep wpa_supplicant
+sudo kill -9 7987
+ping 8.8.8.8
+ps aux |grep wpa_supplicant
+sudo kill -9 8265
+ps aux |grep wpa_supplicant
+sudo kill -9 8349
+sudo systemctl restart systemd-resolved
+sudo systemctl restart systemd-networkd
+sudo service wicd start
+sudo systemctl restart systemd-networkd
+sudo systemctl restart systemd-resolved
+ping 8.8.8.8
+ping 192.168.2.1
+service --status-all
+ping google.com
+ping 8.8.8.8
+sudo systemctl restart systemd-resolved
+ping google.com
+sudo systemctl restart systemd
+sudo systemctl status dnsmasq
+sudo systemctl restart systemd-networkd
+ping google.com
+hostname
+ps aux |grep wpa_s
+wpa_ci
+wpa_cli
+sudo wpa_cli
+sudo wpa_cli -i wlo1
+ifconfig
+clear
+reboot
+start
+startx
+file libwhatismyip.a 
+fileinfo libwhatismyip.a 
+r2 libwhatismyip.a 
+nm libwhatismyip.a 
+nm libwhatismyip.a  |more
+nm libwhatismyip.a  |grep change_
+nm libwhatismyip.a  |grep change
+nm libwhatismyip.a  |grep dropbox
+nm libwhatismyip.a  |grep change
+nm libwhatismyip.a  |grep -I change
+apt search libtelnet
+sudo apt install libtelnet2 libtelnet-dev
+sudo find / |grep libtelnet
+sudo find / |grep libtelnet.h
+nm libwhatismyip.a  |grep -I change
+nm libwhatismyip.a  |grep -I getMac
+cd /
+exit
+ls
+cd /media/veracrypt58/workspace/whatismyip/
+ls
+cd whatismyip/
+ks
+ls
+ls cmake-build-debug/bin
+sudo rm cmake-build-debug/bin/libwhatismyip.a
+exit
+history
+history |grep gnome
+history |more
+history |grep hiber
+vim ~/.config/VeraCrypt/Configuration.xml 
+find ./ |grep buundle
+find ./ |grep bundle
+find ./ |grep bundle |more
+cd ./.vim/bundle/
+ls
+git clone https://github.com/ycm-core/YouCompleteMe.git
+sudo git clone https://github.com/ycm-core/YouCompleteMe.git
+ls
+cd YouCompleteMe/
+ls
+cat README.md 
+vim README.md 
+ls
+cd ..
+cd clq
+cd clang_complete/
+ls
+ls bin
+cat ~/.vimerc
+cat ~/.vimrc
+cd ..
+mv clang_complete/ ~/Downloads/
+sudo mv clang_complete/ ~/Downloads/
+ls
+cd YouCompleteMe/
+sudo python3 install.py --clang-completer
+git submodule update --init --recursive 
+ping google.com
+git submodule update --init --recursive 
+sudo git submodule update --init --recursive 
+ls
+cd /media/veracrypt58/workspace/breakn3ckbet/
+ls
+vim CMakeLists.do 
+vim CMakeLists.txt 
+sudo vim CMakeLists.txt 
+htop
+cd /
+iwconfig
+sudo systemctl restart systemd-resolved.service 
+startx
+shutdown
+htop
+cd /media/veracrypt58/workspace/breakn3ckbet/
+ls
+vim CMakeLists.
+vim CMakeLists.txt 
+sudo vim CMakeLists.txt 
+exit
+htop
+exit
+apt search vim*
+apt search colorscheme*
+apt search vimcolor*
+cd ~/.vim/colors
+mkdir ~/.vim/colors
+sudo mkdir ~/.vim/colors
+cd ~/.vim/colors
+git clone https://github.com/rafi/awesome-vim-colorschemes.git
+sudo git clone https://github.com/rafi/awesome-vim-colorschemes.git
+ls
+ls awesome-vim-colorschemes/
+./awesome-vim-colorschemes/pull-updates.sh 
+sudo ./awesome-vim-colorschemes/pull-updates.sh 
+./awesome-vim-colorschemes/colors/
+ls ./awesome-vim-colorschemes/colors/
+cp -r ./awesome-vim-colorschemes/colors/* ./
+sudo cp -r ./awesome-vim-colorschemes/colors/* ./
+ls
+sudo cp -r ./awesome-vim-colorschemes/after/
+ls ./awesome-vim-colorschemes/after/
+ls ..
+cp -r ./awesome-vim-colorschemes/after/syntax/xml.vim ../after/syntax/
+sudo cp -r ./awesome-vim-colorschemes/after/syntax/xml.vim ../after/syntax/
+sudo cp -r ./awesome-vim-colorschemes/autoload/* ../autoload/
+ls ../autoload/
+ls
+rm -rf awesome-vim-colorschemes/
+sudo rm -rf awesome-vim-colorschemes/
+ls
+history
+cd /media/veracrypt58/workspace/breakn3ckbet/
+vim -S Session.vim 
+ls ~/.vim/colors/
+vim ~/.vimrc 
+ls
+cd /media/veracrypt58/workspace/breakn3ckbet/
+ls
+sudo vim Session.vim 
+./Session.vim
+vim -s Session.vim
+vim --help
+vim -S Session.vim 
+ls ~/.vim/colors/
+vim -S Session.vim 
+sudo vim -S Session.vim 
+vim -S Session.vim 
+vim temo
+ls
+vim ~/.vimrc 
+vim -S Session.vim 
+sudo vim -S Session.vim 
+vim Session.vim 
+vim -S Session.vim 
+sudo ls /root
+vim ~/.vimrc
+exit
+history
+cd /media/veracrypt58/workspace/breakn3ckbet/
+vim -S Session.vim 
+ls
+vim -S Session.vim 
+startx
+htop
+hiistory
+history
+cd /media/veracrypt58/workspace/breakn3ckbet/
+vim -S Session.vim 
+ls ../DirectCallOnReflectiveSOInjection/
+htop
+cd /
+iwconfig
+htop
+iwconfig
+htop
+cd /media/veracrypt58/workspace/DelayProcedureCallOnReflectiveDLLInjection/
+ks
+ls
+git branch
+git branch -r
+cd ..
+cd DirectCallOnReflectiveSOInjection/
+ls
+cd cmake-build-
+cd cmake-build-debug/
+ls
+./sample_x86_64
+ls
+cd ..
+ls
+cd cmake-build-debug/
+ls
+./sample_x86_64 
+./sample_working 
+./sample_x86_64 
+./sample_working
+cd ..
+ls Debug/
+rm -r Debug
+./cmake-build-release/sample_x86_64 
+exit
+cd /media/veracrypt58/workspace/DelayProcedureCallOnReflectiveDLLInjection
+ls
+cd cmake-build-debug/
+ls
+cd ..
+cd DirectCallOnReflectiveSOInjection/
+ls
+cd cmake-build-debug/
+;s
+ls
+./injector_x86_64 
+ps aux |grep sample
+./injector_x86_64 -n sample_x86_64
+./injector_x86_64 -n sample_x86_64 bin/libinject_x86_64.a 
+./injector_x86_64 -n sample_x86_64 bin/libso_x86_64.so 
+sudo ./injector_x86_64 -n sample_x86_64 bin/libso_x86_64.so 
+pgrep sample_x86_64 
+pidof - sample_x86_64 
+ls proc
+sudo ls proc
+sudo ls /proc
+./injector_x86_64 -n sample_x86_64 bin/libso_x86_64.so 
+ls
+cd ..
+ls
+cd cmake-build-debug/
+ls
+./injector_x86_64 -n sample_x86_64 bin/libso_x86_64.so 
+./inject_x86_64 -n sample_x86_64 bin/libso_x86_64.so 
+cd ..
+./inject_x86_64 -n sample_x86_64 bin/libso_x86_64.so 
+cd cmake-build-debug/
+./inject_x86_64 -n sample_x86_64 bin/libso_x86_64.so 
+cd ..
+git branch
+git checkout -b myfork_ref3
+git add .
+git commit -m cont
+gti branch
+git branch
+git checkout myfork_clang_notworking 
+cd cmake-build-debug/
+./inject_x86_64 -n sample_x86_64 bin/libso_x86_64.so 
+./injector_x86_64 -n sample_x86_64 bin/libso_x86_64.so 
+pidof sample_x86_64
+./injector_x86_64 -p 20708 bin/libso_x86_64.so 
+pidof sample_x86_64
+./injector_x86_64 -p 20708 bin/libso_x86_64.so 
+sudo ./injector_x86_64 -p 20708 bin/libso_x86_64.so 
+pidof sample_x86_64
+./injector_x86_64 -p 21128 bin/libso_x86_64.so 
+pidof sample_x86_64
+sudo ./injector_x86_64 -p 21231 bin/libso_x86_64.so 
+pgrep sample_x86_64 
+ps uax |grep sample
+./injector_x86_64 -p 21231 bin/libso_x86_64.so 
+pidof sample_x86_64
+./injector_x86_64 -p 21662 bin/libso_x86_64.so 
+sudo ./injector_x86_64 -p 21662 bin/libso_x86_64.so 
+pidof sample_working
+sudo ./injector_x86_64 -p 21734 bin/libso_x86_64.so 
+pidof sample_x86_64 
+sudo ./injector_x86_64 -p 22209 bin/libso_x86_64.so 
+sudo ./injector_x86_64 -p 22209 ../Debug/libso_x86_64.so 
+sudo ./injector_x86_64 -p 22209 ../Debug/libso_working.so.so 
+sudo ./injector_x86_64 -p 22209 ../Debug/libso_working.so
+sudo ./injector_x86_64 -p 22209 ../Debug/libso_working.so 
+sudo ./injector_x86_64 -n sample_working ../Debug/libso_working.so 
+pidof sample_working 
+sudo ./injector_x86_64 -p 22568 ../Debug/libso_working.so 
+./injector_x86_64 -p 22568 ../Debug/libso_working.so 
+cd ..
+cd cmake-build-release/
+pidof sample_working 
+pidof sample_x86_64 
+./injector_x86_64 -p 23073 ../Release/libso_x86_64.so 
+sudo ./injector_x86_64 -p 23073 ../Release/libso_x86_64.so 
+sudo ./injector_x86_64 -p 23073 ../Release/libso.so 
+ls
+sudo ./injector_x86_64 -n sample_x86_64 ../Release/libso.so 
+sudo ./injector_x86_64 -n sample_x86_64
+service status--all
+service --status--all
+service status
+service status-all
+service --status-all
+systemctl status mongod
+systemctl enable mongod
+sudo systemctl enable mongod
+sudo systemctl start mongod
+sudo systemctl enable mongodb
+ufw
+ufw status
+sudo ufw status
+systemctl status mongod
+systemctl restart mongod
+sudo systemctl restart mongod
+systemctl status mongod
+journalctl -xe
+ls
+sudo systemctl status mongodb
+sudo systemctl status mongod
+sudo systemctl status hostapd
+sudo systemctl start hostapd
+sudo systemctl status hostapd
+sudo vim /etc/hostapd/hostap
+sudo vim /etc/hostapd/hostapd.conf 
+sudo mongod
+sudo WebStorm &
+sudo webstorm &
+sudo systemctl disable mongod
+sudo systemctl stop mongod
+cd ..
+cd cmake-build-debug/
+ls
+sudo ./sample_x86_64 
+ls
+./sample
+cd ..
+./cmake-build-debug/sample 
+cd /
+iwconfig
+sudo ps aux |grep dhclient
+sudo kill -9 5066 12217
+startx
+cd /media/veracrypt58/workspace/DirectCallOnReflectiveSOInjection/
+ls
+cd cmake-build-debug
+ls
+pidof sample_x86_64 
+sudo ./injector_x86_64 -p 31934 bin/libso_x86_64.so 
+cd ..
+git branch
+git checkout myfork_ref2
+git stash
+git checkout myfork_ref2
+./cmake-build-debug/injector
+pidof sample
+./cmake-build-debug/injector -p 32549
+./cmake-build-debug/injector -p 32549 ./cmake-build-debug/bin/libso_x86_64.so 
+sudo ./cmake-build-debug/injector -p 32549 ./cmake-build-debug/bin/libso_x86_64.so 
+pidof sample
+sudo ./cmake-build-debug/injector -p 32549 ./cmake-build-debug/bin/libso_x86_64.so 
+git stash
+git checkout myfork_ref1
+git stash
+git checkout myfork_ref1
+git stash
+git checkout myfork_ref1
+git stash --all
+git checkout myfork_ref1
+git checkout 
+git checkout myfork_ref1
+sudo rm -rf cmake-build-*
+git stash 
+git checkout myfork_ref1
+git checkout myfork_ref3
+git branch
+git stash
+sudo git stash
+sudo git checkout myfork_reflective 
+git stash --include-untracked
+sudo git checkout myfork_reflective 
+git stash --all
+git add .
+git stash --all
+sudo git checkout myfork_reflective 
+git pull
+sudo git checkout -f myfork_reflective 
+sudo git checkout -f myfork_reflective ./Debug/libso.so
+./cmake-build-debug/injector -n sample ./Debug/libso.so 
+sudo ./cmake-build-debug/injector -n sample ./Debug/libso.so 
+./cmake-build-debug/injector -n sample ./Debug/libso.so 
+cd /
+cd /media/veracrypt58/workspace/DirectCallOnReflectiveSOInjection/
+ls
+git branch
+git log --name-status HEAD^..HEAD
+git checkout myfork_clang_notworking 
+git checkout -f myfork_clang_notworking 
+git log --name-status HEAD^..HEAD
+git checkout -f myfork_ref2
+git log --name-status HEAD^..HEAD
+git checkout -f myfork_reflective 
+git log --name-status HEAD^..HEAD
+git checkout myfork_clang_notworking 
+git checkout -f myfork_clang_notworking 
+./cmake-build-debug/sample_x86_64 
+git add .
+git commit -m cont
+./cmake-build-debug/sample_x86_64 
+sudo clion &
+bg
+fg
+sudo apt-get update && sudo apt-get install build-essentil
+sudo apt-get update && sudo apt-get install build-essential
+sudo apt-get install g++
+sudo clion &
+/usr/bin/c++
+/usr/bin/c++ -v
+./cmake-build-debug/sample_x86_64 
+zzZZZ
+ZZ
+exit
+cd /media/veracrypt58/workspace/DirectCallOnReflectiveSOInjection/
+ls
+./cmake-build-debug/sample_x86_64 
+fdisk -l
+sudo fdisk -l
+mount /dev/sdb /mnt
+sudo mount /dev/sdb /mnt
+sudo mount /dev/sdb1 /mnt
+ls /mnt
+cd Downloads/
+ls
+cp -r ANIMA/ /mnt/Downloads/
+ls /mnt/Downloads/ANIMA/
+ls /mnt/Downloads/
+ls
+rm -rf ANIMA/
+ls
+mv -f BBC.The.Planets.1of5.A.Moment.in.the.Sun.1080p.HDTV.x264.AAC.MVGroup.org.mkv  /mnt/Downloads/
+mv -f Joker\ \(2019\)\ \[BluRay\]\ \[1080p\]\ \[YTS.LT\]/ /mnt/Downloads/
+sudo clion 
+bg
+ls
+du -h
+du -hs
+cd ..
+du -hs
+sudo du -hs
+cd /
+sudo du -hs
+reboot
+startx
+ls
+cd Downloads/
+ls
+du -h
+du -h .
+ls
+du -h .
+rm -rf clang_complete/
+sudo rm -rf clang_complete/
+clear
+sudo clion
+exit
+sudo pidof dhclient
+sudo kill 3509 3510
+sudo mount /dev/sdb1 /mnt
+history
+cd /media/veracrypt58/workspace/DirectCallOnReflectiveSOInjection/
+./cmake-build-debug/sample_x86_64 
+cd /media/veracrypt58/workspace/DirectCallOnReflectiveSOInjection/
+./cmake-build-debug/sample_x86_64 
+cat tes
+cat test
+cat cmake-build-debug/test
+cat test
+./cmake-build-debug/sample_x86_64 
+cd /
+iwconfig
+cd /media/veracrypt58/workspace/DirectCallOnReflectiveSOInjection/
+./cmake-build-debug/sample_x86_64 
+cd /
+ls Downloads/
+rm -rf ./Downloads/Parasite.2019.1080p.HDRip.X264.AC3-EVO\[TGx\]/
+rm -rf ./Downloads/Our.Planet.2019.S01.COMPLETE.WEB.x264-STRiFE\[TGx\]/
+rm -rf ./Downloads/The.Mandalorian.S01.COMPLETE.1080p.WEBRiP.x264-MIXED\[TGx\]/
+startx
+ping google.com
+sudo systemctl restart systemd-resolved.service 
+sudo mount /dev/sdb1 /mnt
+ls /mnt/Downloads/
+ls -la /mnt/Downloads/
+vifm /mnt/Downloads/
+sudo systemctl restart systemd-resolved.service 
+vlc-player
+vlc
+vifm
+startx

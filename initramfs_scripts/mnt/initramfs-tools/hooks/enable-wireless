@@ -1,0 +1,46 @@
+#!/bin/sh
+#set -e
+PREREQ=""
+prereqs()
+{
+    echo "${PREREQ}"
+}
+case "${1}" in
+    prereqs)
+        prereqs
+        exit 0
+        ;;
+esac
+
+. /usr/share/initramfs-tools/hook-functions
+
+# Wpa supplicant section.
+manual_add_modules iwlwifi iwldvm iwlmvm 88XXau 8821cu rt2800usb rt2800mmio rtt2800pci
+copy_exec /sbin/usb_modeswitch
+copy_exec /sbin/wpa_supplicant
+copy_exec /sbin/wpa_cli
+copy_exec /sbin/nslookup
+copy_exec /sbin/lsmod
+copy_exec /usr/bin/lsusb
+copy_exec /bin/ping
+copy_exec /bin/ps
+copy_exec /sbin/iwconfig
+copy_file config /etc/wpa_supplicant/wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant.conf
+if [ ! -e "/etc/dhcp" ]; then
+  mkdir /etc/dhcp
+fi
+#if [ ! -e "/var" ]; then
+#  mkdir /var
+#fi
+#if [ ! -e "/var/run" ]; then
+#  mkdir /var/run
+#fi
+copy_file config /etc/dhcp/dhclient.conf /etc/dhcp/dhclient.conf
+#copy_file firmware /lib/firmware/iwlwifi-cc-a0-46.ucode
+#copy_file firmware /lib/firmware/iwlwifi-cc-a0-48.ucode 
+echo "Forcing modules to load..."
+force_load 88XXau
+force_load 8821cu
+force_load rt2800usb
+force_load iwlwifi
+echo "done"

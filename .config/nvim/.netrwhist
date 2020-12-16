@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/vad/tmp'
+let g:netrw_dirhist_2='/usr/share/X11/locale/el_GR.UTF-8'
+let g:netrw_dirhist_1='/usr/share/X11/locale'
+let g:netrw_dirhist_0='/usr/share/X11/locale/el_GR.UTF-8'
+let g:netrw_dirhist_9='/usr/share/X11/locale'
+let g:netrw_dirhist_8='/usr/share/X11/locale/el_GR.UTF-8'
+let g:netrw_dirhist_7='/usr/share/X11/locale'
+let g:netrw_dirhist_6='/home/vad'
+let g:netrw_dirhist_5='/home/vad/CLionProjects/myawesomeproject'
+let g:netrw_dirhist_4='/home/vad/CLionProjects'

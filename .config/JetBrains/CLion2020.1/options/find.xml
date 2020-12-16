@@ -1,0 +1,38 @@
+<application>
+  <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="localCaseSensitive" value="true" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.cpp,*.hpp,*.h" />
+    <mask>*.css</mask>
+    <mask>*.html</mask>
+    <mask>*.xml</mask>
+    <mask>*.cp</mask>
+    <mask>*.inl</mask>
+    <mask>*.ino</mask>
+    <mask>*.pch</mask>
+    <mask>*.c++</mask>
+    <mask>*.icc</mask>
+    <mask>*.ipp</mask>
+    <mask>*.h++</mask>
+    <mask>*.c</mask>
+    <mask>*.i</mask>
+    <mask>*.m</mask>
+    <mask>*.cxx</mask>
+    <mask>*.hh</mask>
+    <mask>*.hp</mask>
+    <mask>*.hxx</mask>
+    <mask>*.ii</mask>
+    <mask>*.hpp</mask>
+    <mask>*.tcc</mask>
+    <mask>*.mm</mask>
+    <mask>*.cc</mask>
+    <mask>*.h</mask>
+    <mask>*.cpp</mask>
+    <mask>*.cpp,*.hpp,*.h</mask>
+  </component>
+</application>

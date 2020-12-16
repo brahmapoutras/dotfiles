@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/vad/.config/zsh'
+let g:netrw_dirhist_0='/home/vad/my_dwm'
+let g:netrw_dirhist_9='/home/vad/.cache'
+let g:netrw_dirhist_8='/mnt/BACKUP/desktop_ubuntu/vad/voidrice/.local/bin/statusbar'
+let g:netrw_dirhist_7='/home/vad/.config/zsh'
+let g:netrw_dirhist_6='/home/vad/.oh-my-zsh'
+let g:netrw_dirhist_5='/home/vad/slstatus/components'
+let g:netrw_dirhist_4='/home/vad/.config/mpv'
+let g:netrw_dirhist_3='/home/vad/.local/bin/statusbar'
+let g:netrw_dirhist_2='/mnt/BACKUP/desktop_ubuntu'

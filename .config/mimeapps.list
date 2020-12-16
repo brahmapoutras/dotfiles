@@ -1,0 +1,21 @@
+[Default Applications]
+text/html=chromium_chromium.desktop
+x-scheme-handler/http=chromium_chromium.desktop
+x-scheme-handler/https=chromium_chromium.desktop
+x-scheme-handler/about=chromium_chromium.desktop
+x-scheme-handler/unknown=chromium_chromium.desktop
+application/pdf=gv.desktop
+
+[Added Associations]
+image/jpeg=feh.desktop;
+text/markdown=vim.desktop;
+text/plain=vim.desktop;mcedit.desktop;
+text/x-cmake=vim.desktop;
+image/png=feh.desktop;
+text/x-log=vim.desktop;
+application/pdf=firefox.desktop;chromium-browser.desktop;
+application/x-trash=vim.desktop;
+application/zip=vim.desktop;
+application/x-compressed-tar=xfce4-terminal-settings.desktop;
+application/x-subrip=code-insiders_code-insiders.desktop;
+application/x-partial-download=vlc.desktop;

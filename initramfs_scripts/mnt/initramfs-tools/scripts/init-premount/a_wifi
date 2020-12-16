@@ -1,0 +1,72 @@
+#!/bin/sh
+PREREQ=""
+prereqs()
+{
+    echo "$PREREQ"
+}
+
+case $1 in
+prereqs)
+    prereqs
+    exit 0
+    ;;
+esac
+
+. /scripts/functions
+
+if [ ! -x "/sbin/modprobe" ]; then
+  log_failure_msg "Modprobe not found"
+  exit 0
+else
+  modprobe -r iwlwifi
+  modprobe iwlwifi
+  modprobe -r rt2800usb
+  modprobe rt2800usb
+  modprobe -r rt2800mmio
+  modprobe rt2800mmio
+  modprobe -r rt2800pci
+  modprobe rt2800pci
+  modprobe -r 88XXau
+  modprobe 88XXau
+  modprobe -r 8821cu
+  modprobe 8821cu
+fi
+
+if [ ! -x "/sbin/dhclient" ]; then
+  log_failure_msg "Dhclient not found"
+  exit 0
+fi
+
+AUTH_LIMIT=20
+INTERFACE="wlx00ad24430dfd"
+#DHCP_CONFIG="/etc/dhcp/dhclient.conf"
+alias WPACLI="/sbin/wpa_cli -p/tmp/wpa_supplicant -i$INTERFACE "
+
+echo "Starting WLAN connection"
+configure_networking
+usb_modeswitch -KW -v 0bda -p 1a2b
+sleep 2
+iwconfig
+wpa_supplicant  -Dnl80211 -i$INTERFACE -c/etc/wpa_supplicant/wpa_supplicant.conf -P/run/initram-wpa_supplicant.pid -B -f/tmp/wpa_supplicant.log
+sleep 1
+dhclient $INTERFACE
+echo `ip a show dev $INTERFACE`
+# Wait for AUTH_LIMIT seconds, then check the status
+limit=${AUTH_LIMIT}
+
+echo -n "Waiting for connection (max ${AUTH_LIMIT} seconds)"
+while [ $limit -ge 0 ]
+do
+    if [ `WPACLI status | grep wpa_state` != "wpa_state=COMPLETED" ]; then
+      ONLINE=0
+      log_failure_msg "WLAN offline after timeout"
+    else
+      ONLINE=1
+      log_success_msg "WLAN online"
+      break;
+    fi
+    sleep 1
+    echo -n "."
+    limit=`expr $limit - 1`
+done
+

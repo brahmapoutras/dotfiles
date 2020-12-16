@@ -1,0 +1,15 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="Exit">
+        <ActionSummary times="1" last="1587645561087" />
+      </entry>
+      <entry key="com.intellij.ide.ReopenProjectAction">
+        <ActionSummary times="1" last="1587645513490" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.welcomeScreen.FlatWelcomeFrame$FlatWelcomeScreen$6">
+        <ActionSummary times="1" last="1587645520987" />
+      </entry>
+    </data>
+  </component>
+</application>

@@ -1,0 +1,73 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="/media/veracrypt1/3rdPartyLibs/WinMACSpoofer">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-192.6817.13" />
+              <option name="buildTimestamp" value="1569296708034" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1569934723560" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/media/veracrypt1/3rdPartyLibs/WinMACSpoofer/winMACSpoofer/winMACSpoofer">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-192.6817.13" />
+              <option name="buildTimestamp" value="1569296708034" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1569935515682" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/media/veracrypt1/3rdPartyLibs/WinMACSpoofer/winMACSpoofer/winMACSpoofer/cmake-build-debug">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-192.6817.13" />
+              <option name="buildTimestamp" value="1569296708034" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1569934877057" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/media/veracrypt58/workspace/spheenx.io">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-192.7142.35" />
+              <option name="buildTimestamp" value="1572321286563" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1582551222497" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/WebstormProjects/untitled">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1awTC4G0zAeAPVCd7iFZnUvg4wd">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-201.6668.106" />
+              <option name="buildTimestamp" value="1586190105949" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1587673609501" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/WebstormProjects" />
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/WebstormProjects/untitled" />
+        <option value="/media/veracrypt58/workspace/spheenx.io" />
+        <option value="/media/veracrypt1/3rdPartyLibs/WinMACSpoofer/winMACSpoofer/winMACSpoofer/cmake-build-debug" />
+        <option value="/media/veracrypt1/3rdPartyLibs/WinMACSpoofer/winMACSpoofer/winMACSpoofer" />
+        <option value="/media/veracrypt1/3rdPartyLibs/WinMACSpoofer" />
+      </list>
+    </option>
+  </component>
+</application>

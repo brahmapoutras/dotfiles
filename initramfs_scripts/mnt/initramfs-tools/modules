@@ -1,0 +1,29 @@
+# List of modules that you want to include in your initramfs.
+# They will be loaded at boot time in the order below.
+#
+# Syntax:  module_name [args ...]
+#
+# You must run update-initramfs(8) to effect this change.
+#
+# Examples:
+#
+# raid1
+# sd_mod
+vfio
+vfio_iommu_type1
+vfio_mdev
+vfio_virqfd
+options vfio_pci ids=1002:6898,1002:aa50,1002:683f,1002:aab0
+vfio_pci ids=1002:6898,1002:aa50,1002:683f,1002:aab0,1002:683d,1002:aab0
+# Exclude the active GPU (conflict between the active radeon and the vfio-pci driver may hang the system at startup)
+# 1002:683d,1002:aab0
+vfio_pci
+radeon
+vhost-net
+ip_tables
+nslookup
+netplan
+#pci-stub
+iwldvm
+iwlwifi
+88XXau

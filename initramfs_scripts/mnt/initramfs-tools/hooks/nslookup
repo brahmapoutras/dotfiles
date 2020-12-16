@@ -1,0 +1,31 @@
+#!/bin/sh
+# hook nslookup script
+PREREQ=""
+prereqs()
+{
+  echo "$PREREQ"
+}
+
+case $1 in
+  prereqs)
+  prereqs
+  exit 0
+    ;;
+esac
+
+. /usr/share/initramfs-tools/hook-functions
+# Begin real processing below this line
+
+#manual_add_modules nslookup
+#force_load nslookup
+#if [ -d "/usr/lib/x86_64-linux-gnu" ] ; then
+#  PATH="$PATH:/usr/lib/x86_64-linux-gnu"
+#fi
+
+#copy_modules_dir /usr/lib/x86_64-linux-gnu/
+copy_exec /usr/bin/nslookup /sbin
+#copy_exec /usr/sbin/netplan /sbin
+copy_exec /sbin/iptables /sbin
+copy_exec /sbin/iptables-restore /sbin
+
+exit 0

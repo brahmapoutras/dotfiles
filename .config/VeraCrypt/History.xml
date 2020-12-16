@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VeraCrypt>
+	<history>
+		<volume>/dev/sdc1</volume>
+		<volume>/dev/sdd1</volume>
+	</history>
+</VeraCrypt>

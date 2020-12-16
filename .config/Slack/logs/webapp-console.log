@@ -1,0 +1,364 @@
+[08/03/20, 19:34:48:319] info: ╔════════════════════════════════════════════════════════════════════════════════════╗
+║      Slack 4.3.2, linux 5.4.38-gentoo-x86_64 on x64 at 08/03/20, 19:34:48:319      ║
+╚════════════════════════════════════════════════════════════════════════════════════╝ 
+[08/03/20, 19:34:48:319] info: Configured logger via 
+{
+  "identifierOverride": "webapp-console",
+  "logLevel": "info",
+  "numberOfInstances": 2
+}
+[08/03/20, 19:34:48:320] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.3.2",
+  "PACKAGE_MANIFEST.commit": "bdb3575",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[08/03/20, 19:34:49:002] info: Initializing local storage instance at path: /home/vad/.config/Slack/local-settings.json 
+[08/03/20, 19:34:49:064] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[08/03/20, 19:34:49:065] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[08/03/20, 19:34:49:093] info: Read UUID from file successful {
+  "uuid": "45c60f41-c475-5f3f-8407-76f757fea2cb"
+} 
+[08/03/20, 19:34:49:137] info: toggleAutoSpellcheck:: desktop interface is not available 
+[08/03/20, 19:34:49:137] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[08/03/20, 19:34:49:165] info: Main window preload script finished {
+  "readyTime": 27.561769
+} 
+[08/03/20, 19:34:49:205] info: create: creating new instance of cld3 {
+  "minBufferLength": 140,
+  "maxBufferLength": 1000
+} 
+[08/03/20, 19:34:49:206] info: cld3::loadModule: loading cld3 wasm binary {
+  "initOptions": {}
+} 
+[08/03/20, 19:34:49:206] info: cld3Loader::loadModule: constructed module object for runtime 
+[08/03/20, 19:34:49:243] info: cld3Loader::initializeRuntime: successfully initialized module 
+[08/03/20, 19:34:49:244] info: cld3Loader::loadModule: initialized wasm binary Runtime 
+[08/03/20, 19:34:49:244] info: cld3::cldLoader: cld3 wasm initialized with default values {
+  "unknownIdentifier": "und",
+  "minBytesDefault": 140,
+  "maxBytesDefault": 700,
+  "maxBytesInput": 10000,
+  "languageResultStructSize": 24
+} 
+[08/03/20, 19:34:49:984] info: Network status check {
+  "elapsed_time_ms": 409,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[08/03/20, 19:34:49:987] info: Store: SET_NETWORK_STATUS online 
+[08/03/20, 19:34:51:081] info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0 
+[08/03/20, 19:34:52:806] warn: error getActiveModelOb found no ob 
+[08/03/20, 19:34:52:806] warn: TS.boot_data.channel_id: undefined 
+[08/03/20, 19:34:52:807] warn: TS.boot_data.im_id: undefined 
+[08/03/20, 19:34:52:807] warn: TS.boot_data.group_id: undefined 
+[08/03/20, 19:34:52:807] warn: error getActiveModelOb found no ob 
+[08/03/20, 19:34:52:807] warn: TS.boot_data.channel_id: undefined 
+[08/03/20, 19:34:52:808] warn: TS.boot_data.im_id: undefined 
+[08/03/20, 19:34:52:808] warn: TS.boot_data.group_id: undefined 
+[08/03/20, 19:34:52:832] info: [BOOT] booted! pri:0 version:1596342098 start_ms:1596472490750 (2082ms ago) 
+[08/03/20, 19:34:52:865] warn: (T00000000) Clogger context could not be determined, using empty context 
+[08/03/20, 19:34:52:935] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[08/03/20, 19:34:52:935] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[08/03/20, 19:34:52:939] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[08/03/20, 19:34:52:939] info: [STORAGE] Special case: force-enabling LS compression for this session. 
+[08/03/20, 19:34:52:939] info: [STORAGE] migrating to compressed format 
+[08/03/20, 19:34:52:940] info: [STORAGE] migration to compressed format complete, 0 migrated 
+[08/03/20, 19:34:52:940] info: Store: UPSERT_WEB_CONTENTS {
+  "appId": "app",
+  "id": 1,
+  "state": "loaded"
+} 
+[08/03/20, 19:34:52:941] info: Store: MAIN_WINDOW_SHOWN  
+[08/03/20, 19:34:52:942] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 768,
+      "width": 1024,
+      "x": 448,
+      "y": 156
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[08/03/20, 19:34:52:942] info: Store: CLEAR_NOTIFICATIONS  
+[08/03/20, 19:34:53:500] info: [INFO] running without a user 
+[08/03/20, 19:34:53:990] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1035,
+      "width": 949,
+      "x": 13,
+      "y": 32
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[08/03/20, 19:34:56:186] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1035,
+      "width": 949,
+      "x": 13,
+      "y": 32
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[08/03/20, 19:35:02:012] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1035,
+      "width": 949,
+      "x": 13,
+      "y": 32
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[08/03/20, 19:35:03:266] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1035,
+      "width": 949,
+      "x": 13,
+      "y": 32
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[08/03/20, 19:35:03:736] info: Store: QUIT_APP  
+[08/03/20, 19:35:03:737] info: [FOCUS-EVENT] Window blurred 
+[08/03/20, 19:35:03:787] info: Store: APP_CLEANED_UP  
+[08/03/20, 19:35:03:788] info: Store: DOWNLOADS_CLEANED_UP  
+[08/03/20, 19:35:03:791] info: [WINDOW-UNLOADING] (T00000000) workspace handling window unloading event 
+[08/21/20, 20:48:06:228] info: ╔════════════════════════════════════════════════════════════════════════════════════╗
+║      Slack 4.3.2, linux 5.4.38-gentoo-x86_64 on x64 at 08/21/20, 20:48:06:227      ║
+╚════════════════════════════════════════════════════════════════════════════════════╝ 
+[08/21/20, 20:48:06:229] info: Configured logger via 
+{
+  "identifierOverride": "webapp-console",
+  "logLevel": "info",
+  "numberOfInstances": 2
+}
+[08/21/20, 20:48:06:230] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.3.2",
+  "PACKAGE_MANIFEST.commit": "bdb3575",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[08/21/20, 20:48:07:083] info: Initializing local storage instance at path: /home/vad/.config/Slack/local-settings.json 
+[08/21/20, 20:48:07:138] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[08/21/20, 20:48:07:139] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[08/21/20, 20:48:07:165] info: Read UUID from file successful {
+  "uuid": "45c60f41-c475-5f3f-8407-76f757fea2cb"
+} 
+[08/21/20, 20:48:07:211] info: toggleAutoSpellcheck:: desktop interface is not available 
+[08/21/20, 20:48:07:212] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[08/21/20, 20:48:07:231] info: Main window preload script finished {
+  "readyTime": 17.996596
+} 
+[08/21/20, 20:48:07:272] info: create: creating new instance of cld3 {
+  "minBufferLength": 140,
+  "maxBufferLength": 1000
+} 
+[08/21/20, 20:48:07:273] info: cld3::loadModule: loading cld3 wasm binary {
+  "initOptions": {}
+} 
+[08/21/20, 20:48:07:273] info: cld3Loader::loadModule: constructed module object for runtime 
+[08/21/20, 20:48:07:325] info: cld3Loader::initializeRuntime: successfully initialized module 
+[08/21/20, 20:48:07:325] info: cld3Loader::loadModule: initialized wasm binary Runtime 
+[08/21/20, 20:48:07:326] info: cld3::cldLoader: cld3 wasm initialized with default values {
+  "unknownIdentifier": "und",
+  "minBytesDefault": 140,
+  "maxBytesDefault": 700,
+  "maxBytesInput": 10000,
+  "languageResultStructSize": 24
+} 
+[08/21/20, 20:48:08:468] info: Network status check {
+  "elapsed_time_ms": 818,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[08/21/20, 20:48:08:470] info: Store: SET_NETWORK_STATUS online 
+[08/21/20, 20:48:15:586] info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0 
+[08/21/20, 20:48:44:382] warn: error getActiveModelOb found no ob 
+[08/21/20, 20:48:44:383] warn: TS.boot_data.channel_id: undefined 
+[08/21/20, 20:48:44:383] warn: TS.boot_data.im_id: undefined 
+[08/21/20, 20:48:44:383] warn: TS.boot_data.group_id: undefined 
+[08/21/20, 20:48:44:383] warn: error getActiveModelOb found no ob 
+[08/21/20, 20:48:44:384] warn: TS.boot_data.channel_id: undefined 
+[08/21/20, 20:48:44:384] warn: TS.boot_data.im_id: undefined 
+[08/21/20, 20:48:44:384] warn: TS.boot_data.group_id: undefined 
+[08/21/20, 20:48:44:399] info: [BOOT] booted! pri:0 version:1598024708 start_ms:1598032089404 (34995ms ago) 
+[08/21/20, 20:48:44:428] warn: (T00000000) Clogger context could not be determined, using empty context 
+[08/21/20, 20:48:44:488] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[08/21/20, 20:48:44:488] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[08/21/20, 20:48:44:490] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[08/21/20, 20:48:44:490] info: [STORAGE] Special case: force-enabling LS compression for this session. 
+[08/21/20, 20:48:44:490] info: Store: UPSERT_WEB_CONTENTS {
+  "appId": "app",
+  "id": 1,
+  "state": "loaded"
+} 
+[08/21/20, 20:48:44:492] info: Store: MAIN_WINDOW_SHOWN  
+[08/21/20, 20:48:44:492] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1035,
+      "width": 949,
+      "x": 13,
+      "y": 32
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[08/21/20, 20:48:44:493] info: Store: CLEAR_NOTIFICATIONS  
+[08/21/20, 20:48:45:539] info: [INFO] running without a user 
+[08/21/20, 20:48:45:546] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 1035,
+      "width": 949,
+      "x": 13,
+      "y": 32
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[08/21/20, 20:48:53:395] info: Got window.open with URL: /ssb/signin 
+[08/21/20, 20:48:53:417] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[08/21/20, 20:48:53:417] info: [UNKNOWN-FETCH-MANAGER] (T00000000) requesting T00000000 (1) 
+[08/21/20, 20:48:53:419] warn: TRACES You tried to get a team-specific tracer but didn’t provide enough context and are getting the generic tracer instead which is likely not what you want. 
+[08/21/20, 20:48:53:424] info: [API-Q] (T00000000) 25f09583-1598032133.420 team.info called with reason: UnknownFetchManager 
+[08/21/20, 20:48:53:424] info: [API-Q] (T00000000) 25f09583-1598032133.420 team.info is ENQUEUED 
+[08/21/20, 20:48:53:425] info: [API-Q] (T00000000) 25f09583-1598032133.420 team.info is ACTIVE 
+[08/21/20, 20:48:53:602] info: [API-Q] (T00000000) 25f09583-1598032133.420 team.info is REJECTED: API not ok not_authed 
+[08/21/20, 20:48:53:609] info: [UNKNOWN-FETCH-MANAGER] (T00000000) received T00000000 (1) 
+[08/21/20, 20:48:53:611] warn: (T00000000) UnknownFetchManager requested 1 objects but received 0. Missing objects: T00000000 
+[08/21/20, 20:48:54:109] info: [FOCUS-EVENT] Window blurred 
+[08/21/20, 20:48:55:150] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 509,
+      "width": 929,
+      "x": 978,
+      "y": 32
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[08/21/20, 20:49:06:152] info: Store: UPDATE_SETTINGS {
+  "lastClogForProxyInfo": 1598032146148
+} 
+[08/21/20, 20:49:09:033] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 509,
+      "width": 929,
+      "x": -1867,
+      "y": 32
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[08/21/20, 20:49:58:457] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 509,
+      "width": 929,
+      "x": 978,
+      "y": 32
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[08/21/20, 20:50:03:239] info: [FOCUS-EVENT] Window focused 
+[08/21/20, 20:50:04:694] info: Got window.open with URL: /ssb/signin 
+[08/21/20, 20:50:05:585] info: [FOCUS-EVENT] Window blurred 
+[08/21/20, 20:50:13:672] info: [FOCUS-EVENT] Window focused 
+[08/21/20, 20:50:14:524] info: [FOCUS-EVENT] Window blurred 
+[08/21/20, 20:50:14:766] info: [FOCUS-EVENT] Window focused 
+[08/21/20, 20:50:15:605] info: [FOCUS-EVENT] Window blurred 
+[08/21/20, 20:50:25:991] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 509,
+      "width": 929,
+      "x": -1867,
+      "y": 32
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[08/21/20, 20:50:26:660] info: [FOCUS-EVENT] Window focused 
+[08/21/20, 20:50:27:451] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 509,
+      "width": 929,
+      "x": 978,
+      "y": 32
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 
+[08/21/20, 20:50:31:699] info: [FOCUS-EVENT] Window blurred 
+[08/21/20, 20:50:32:035] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "bounds": {
+      "height": 509,
+      "width": 929,
+      "x": 978,
+      "y": 32
+    },
+    "fullScreen": false,
+    "maximized": false
+  }
+} 

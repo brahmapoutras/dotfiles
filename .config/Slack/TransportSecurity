@@ -1,0 +1,14 @@
+{
+   "iB//ZOwRFLmfX0B2Wz25PQKJQyiyDgqmnnL/PMKiruk=": {
+      "expiry": 1629568133.597718,
+      "mode": "force-https",
+      "sts_include_subdomains": true,
+      "sts_observed": 1598032133.597724
+   },
+   "vm2QJMhfv2OL9x9nshmb+BO636j9Ec+ArLF5lO9g91k=": {
+      "expiry": 1629568088.463007,
+      "mode": "force-https",
+      "sts_include_subdomains": true,
+      "sts_observed": 1598032088.463013
+   }
+}
